@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="../css/estilo.css">
+    <script src="../js/script.js" defer></script>
+</head>
+<body>
+    <div>          
+        <h2>LOGIN</h2>        
+        <p class="msgValidacao"></p>
+            
+
+        <form action="#" method="get" onsubmit="return validaLogin(this.idEmail, this.idSenha)">
+
+            <div class="form-group">
+                <div>
+                    <label for="idEmail">Email</label>
+                    <input type="text" name="emailUsuario" id="idEmail" placeholder="Digite seu email" required>
+                </div>
+                <div> 
+                    <label for="idSenha">Senha</label>
+                    <input type="password" name="senha" id="idSenha" placeholder="Digite sua senha" required>
+                </div>
+                <button type="submit">Enviar</button>
+            </div>   
+        </form>
+    </div>
+</body>
+</html>
